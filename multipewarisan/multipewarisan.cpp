@@ -42,7 +42,7 @@ public :
         cout << "Pelajar Dihapus" << endl;
     }
     string perkenalan() {
-        return "Hallo, Nama Saya " + nama + " Dengan Jenis Kelamin" + jenisKelamin;
+        return "Hallo, Nama Saya " + nama + " Dengan Jenis Kelamin" + jenisKelamin + " Dari Sekolah" + sekolah + "\n\n";
     }
 };
 
