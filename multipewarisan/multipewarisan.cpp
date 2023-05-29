@@ -15,6 +15,19 @@ public :
     }
 };
 
+class manusia {
+public :
+    string jenisKelamin;
+
+    manusia(string pJenisKelamin) :
+        jenisKelamin(pJenisKelamin) {
+        cout << "Manusia Dibuat\n" << endl;
+    }
+    ~manusia() {
+        cout << "Manusia Dihapus\n" << endl;
+    }
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
