@@ -9,6 +9,20 @@ public :
     //}
 };
 
+class joko : public seseorang {
+public :
+    void pesan() {
+        cout << "Pesan Dari Joko" << endl;
+    }
+};
+
+class lia : public seseorang {
+public :
+    void pesan() {
+        cout << "Pesan Dari Lia" << endl;
+    }
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
