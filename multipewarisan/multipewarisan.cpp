@@ -48,6 +48,7 @@ public :
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    pelajar andi("Andi Laksono", "Laki-Laki", "BelajarCpp");
+    cout << andi.perkenalan();
 }
 
