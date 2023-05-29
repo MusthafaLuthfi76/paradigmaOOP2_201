@@ -12,6 +12,14 @@ public :
     }
 };
 
+class pekerja : public orang {
+public :
+    pekerja(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "Pekerja Dibuat\n" << endl;
+    }
+};
 int main()
 {
     std::cout << "Hello World!\n";
