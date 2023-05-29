@@ -8,7 +8,7 @@ public :
     orang(int pUmur) :
         umur(pUmur)
     {
-        cout << "Orang Dibuat Dengan Umur" << umur << "\n" << endl;
+        cout << "Orang Dibuat Dengan Umur " << umur << "\n" << endl;
     }
 };
 
