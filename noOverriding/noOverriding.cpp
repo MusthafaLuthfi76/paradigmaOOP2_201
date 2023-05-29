@@ -3,10 +3,22 @@ using namespace std;
 
 class baseClass {
 public :
-public : 
-    virual void perkenalan ()final {}
+    virtual void perkenalan()final {
+        cout << "Halo saya Function dari base class";
+    }
 };
+
+class derivedClass : public baseClass {
+public :
+    void perkenalan() {
+        cout << "Halo Saya Function dari Derived Class";
+    }
+};
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    derivedClass a;
+    a.perkenalan();
+
+    return 0;
 }
