@@ -39,7 +39,7 @@ public :
         cout << "Pelajar Dibuat\n" << endl;
     }
     ~pelajar() {
-        cout << "Pelajar Dihapus" << endl;
+        cout << "Pelajar Dihapus\n" << endl;
     }
     string perkenalan() {
         return "Hallo, Nama Saya " + nama + " Dengan Jenis Kelamin" + jenisKelamin + " Dari Sekolah" + sekolah + "\n\n";
